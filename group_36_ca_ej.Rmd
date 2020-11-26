@@ -1,0 +1,19 @@
+---
+title: "Group 36 CA pollution burden"
+author: "Ruby Harris-Gavin"
+date: "11/25/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(janitor)
+library(here)
+```
+
+```{r}
+ces <- read_csv(here("data","ces3demographics.csv")) %>% 
+  clean_names()
+```
+
