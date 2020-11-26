@@ -25,4 +25,6 @@ ggplot(data = ces, aes(x = white_percent, y = ces_3_0_score)) +
   scale_fill_gradient(low = "navy", high = "orange") +
   theme_minimal()
 ```
+The CES 3.0 score decreases as the percentage of the white demographic incerases. When the population is at least 75% white, there is a higher amount of aggregated observations, with a CES 3.0 score of 25 or less. 
+
 
